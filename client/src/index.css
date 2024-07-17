@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+body .create-component,
+body .display-component {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+body .create-component h2,
+body .display-component h2 {
+  margin: 1em 0;
+}
+
+/* Create Section */
+body .create-component input {
+  width: 50%;
+  padding: 1em;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 1em;
+  color: white;
+}
+
+body .create-component button {
+  padding: 1em 2em;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+body .create-component button:active {
+  transform: scale(0.95);
+}
+
+/* Display Section */
+body .display-component table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body .display-component table th,
+body .display-component table td {
+  padding: 1em;
+  border: 1px solid white;
+}
+
+body .display-component table td button {
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+}
+
+body .display-component table td button:first-child,
+body .display-component table td button:first-child,
+body .display-component table td button:last-child {
+  color: white;
+  border: none;
+}
+
+body .display-component table td button:first-child {
+  background: green;
+}
+body .display-component table td button:last-child {
+  background: red;
+}
+
+body .display-component table td button:first-child:active,
+body .display-component table td button:last-child:active {
+  transform: scale(0.95);
+}
